@@ -80,18 +80,7 @@ This will generate a production-ready build in the dist/ folder.
 ## Folder Structure
 Here's a breakdown of the folder structure in this project:
 
-src/
-├── app/
-│   ├── core/                  # Core services, models, and utilities
-│   ├── pages/                 # Feature-specific modules like articles
-│   │   ├── blog/              # Component for displaying article list
-│   ├── app.module.ts          # Main Angular module
-│   ├── app.component.ts       # Main component
-│   ├── app-routing.module.ts  # Routing configuration
-├── assets/                    # Static assets (images, icons, etc.)
-├── environments/              # Environment-specific configurations (e.g., development, production)
-├── styles/                    # Global styles
-└── index.html                 # Main HTML file
+![alt text](image-2.png)
 
 - **Explanation of Key Folders**
 core/: Contains singleton services and models (e.g., article.service.ts for API calls).
